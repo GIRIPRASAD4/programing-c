@@ -12,7 +12,7 @@ printf("Enter the year:");
 scanf("%d",&year);
 
 if (year%400==0)
-printf("Given date is Leap Year:");
+printf("Given date is Leap Year");
 else if (year%100==0)
 printf("Given date is not Leap Year");
 else if (year%4==0)
